@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wireframe</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script src="https://kit.fontawesome.com/aba1560d5e.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  
+  <body>
+<div id="box">
+    <nav class="navbar navbar-light">
+      <div class="container-fluid">
+        <form class="d-flex">
+          <input
+            class="form-control me-2 search"
+            type="search"
+            placeholder="Search" 
+            id = "city-input" 
+            autocomplete="off" 
+            autofocus = "on"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-secondary s2">
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+      </div>
+    </nav>
+    </div>
+    <br/>
+    <div id="box">
+    <div class="current-date">Mar 21 | Night 
+      <i class="fas fa-cloud-showers-heavy main-icon"></i></div>
+    <div class="current-time" id="time"></div>
+    <div class="weather-description">Rainy</div>
+    <div class="current-weather">33°
+      <span class="temperature" span id="temp"></span>
+    </div>
+    <div class="current-location" id="city">
+      <span class="city-country" id="change-city"></span>
+      <span class="city-country" id="country-code"></span>
+      <i class="fas fa-map-marker"> Seattle, WA </i>
+    </div>
+<hr/>
+
+<div class="vl"></div>
+      <li><i class="fas fa-wind"></i> Winds SSE at 5 to 10ph</li>
+      <li><i class="fas fa-sun"></i> UV Index 0 of 10</li>
+      <li><i class="fas fa-umbrella"></i> Likely for Rain 10%</li>
+      <li><i class="fas fa-tint"></i> Humidity is 73%</li>
+      <img src="image/lilwane.JPG">
+    </div></ul>
+    <br/>
+
+    
+    <div id="box">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="day">Sun</div><hr/>
+            <span><i class="fas fa-cloud-showers-heavy showers"></i></span>
+          <div class="account">High</div>
+          <div class="temp">41°</div>
+          <div class="account">Low</div>
+          <div class="temp">36°</div>
+        </div>
+      <div class="col">
+        <div class="day">Mon</div><hr/>
+         <span><i class="fas fa-cloud-showers-heavy showers"></i></span>
+        <div class="account">High</div>
+        <div class="temp">40°</div>
+        <div class="account">Low</div>
+        <div class="temp">34°</div>
+      </div>
+      <div class="col">
+        <div class="day">Tues</div><hr/>
+         <span><i class="fas fa-cloud-showers-heavy showers"></i></span>
+        <div class="account">High</div>
+        <div class="temp">39°</div>
+        <div class="account">Low</div>
+        <div class="temp">34°</div>
+      </div>
+      <div class="col">
+        <div class="day">Wed</div><hr/>
+         <span><i class="fas fa-cloud-showers-heavy showers"></i></span>
+        <div class="account">High</div>
+        <div class="temp">38°</div>
+        <div class="account">Low</div>
+        <div class="temp">34°</div>
+      </div>
+    </div>
+    </div>
+    </div>
+    <footer>
+    <a href="#" class="previous round">&#8249;</a>
+    <a href="#" class="next round">&#8250;</a>
+</div>
+    </footer>
+  </body>
+  <script src="src/index.js"></script>
+</html>
